@@ -34,7 +34,9 @@ After the export tool has run, you now just need to export the html output to th
  
 Now you should be able to preview and post the blog as usual.  Done!
 
-## Changes to the code
+## Changes to the original code
+
+The following changes have been made to update the code from the [original tool](https://github.com/qnngroup/qnn-nb2wp/tree/main).
 
 1. The nbconvert commands around the HTML template name specification were updated to the new syntax (this was changed from the original version).
 2. A new `img_prefix` input was added to specify the image prefix name to prevent naming conflicts on the QNN blog media folder.
