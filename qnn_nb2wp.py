@@ -37,9 +37,9 @@ def qnn_nb2wp(nbfile, out_dir='', template='basic', css_files=['style.css'],
                 Default: "img". 
     img_prefix: Prefix for the image files.
     img_url_prefix: The  root/parent directory of the images as seen from HTTP.
-    latex:      Specify how to convert  Latex directives.  Default is "wp".  If
+    latex:      Specify how to convert  Latex directives.  Default is '' (empty).  If
                 empty,  no Latex conversion  will be performed  (the directives
-                will be left unchanged).
+                will be left unchanged).  
     remove_attrs: Remove various HTML attributes such as "class", "id" from the
                 output HTML file to simplify the file. Default: True
     footer:     Add conversion footer. Default: True
