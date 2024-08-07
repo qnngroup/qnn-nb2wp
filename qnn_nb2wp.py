@@ -14,7 +14,7 @@ __version__ = '0.3.1'
 
 def qnn_nb2wp(nbfile, out_dir='', template='basic', css_files=['style.css'], 
           save_img=True, img_dir='img', img_prefix='img',img_url_prefix='img',
-          latex='wp', remove_attrs=True, footer=True,
+          latex='', remove_attrs=True, footer=True,
           save_css=False, save_html=False, quiet=False):
     """
     Convert Jupyter notebook file to Wordpress.com HTML.
