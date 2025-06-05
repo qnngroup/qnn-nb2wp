@@ -18,7 +18,7 @@ For a minimal html conversion simply follow these steps:
     
 ```
 from qnn_nb2wp import *
-qnn_nb2wp('name_of_notebook.ipynb', img_prefix='prefix', img_url_previx='url-prefix')
+qnn_nb2wp('name_of_notebook.ipynb', img_prefix='prefix', img_url_prefix='url-prefix')
 ```
 
 This results in a folder of the same name as the `.ipynb` file with an html file and a directory of exported images.  Next we will tackle posting this to the blog.
